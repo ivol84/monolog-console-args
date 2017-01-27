@@ -1,5 +1,6 @@
 monolog-cli-processor
 ============
+![Build Status](https://travis-ci.org/ivol84/monolog-console-args.svg?branch=master)
 
 Cli processor allows to log console command in Monolog.
 
