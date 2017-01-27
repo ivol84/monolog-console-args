@@ -2,7 +2,6 @@
 namespace ivol\tests\Monolog\Processor;
 
 use ivol\Monolog\Processor\CliProcessor;
-use Monolog\Handler\NullHandler;
 use Monolog\Handler\TestHandler;
 use Monolog\Logger;
 
