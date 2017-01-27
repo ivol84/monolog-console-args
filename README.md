@@ -5,7 +5,7 @@ Cli processor allows to log console command in Monolog.
 
 Installation
 ------------
-@XXX: Fix after adding to composer.
+@XXX: Fix after adding to composer...
 
 Usage
 -----
