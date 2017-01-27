@@ -1,0 +1,24 @@
+{
+  "name": "ivol/monolog-cli-processor",
+  "description": "Allows to log console command",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dzmitry Shalukhau",
+      "email": "ivol84@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4":
+    {
+      "ivol\\": "src/",
+      "ivol\\tests\\": "tests/src/"
+    }
+  },
+  "require-dev": {
+    "monolog/monolog": "1.22.*",
+    "phpunit/phpunit": "4.8.*"
+  }
+}
