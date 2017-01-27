@@ -6,7 +6,10 @@ Cli processor allows to log console command in Monolog.
 
 Installation
 ------------
-@XXX: Fix after adding to composer...
+Add library to your [Composer](https://getcomposer.org/doc/00-intro.md) project:
+```bash
+composer require ivol/monolog-cli-processor
+```
 
 Usage
 -----
