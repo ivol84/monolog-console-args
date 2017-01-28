@@ -19,6 +19,6 @@ class CliProcessorTest extends \PHPUnit_Framework_TestCase
 
         $records = $handler->getRecords();
         $this->assertCount(1, $records);
-        $this->assertEquals($_SERVER['argv'][0], $records[0]['extra']['cli']);
+        $this->assertEquals(implode(' ', $_SERVER['argv']), $records[0]['extra']['cli']);
     }
 }
